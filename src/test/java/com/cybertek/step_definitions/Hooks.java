@@ -40,14 +40,6 @@ public class Hooks {
         System.out.println("Set up teacher test");
     }
 
-    @Before(value = "@db")
-    public void setUpDBConnection(){
-        DatabaseUtility.createConnection();
-    }
 
-    @After(value = "db")
-    public void closeDBConnection(){
-        DatabaseUtility.closeConnection();
-    }
 
 }
