@@ -35,10 +35,6 @@ public class Hooks {
         Driver.closeDriver();
     }
 
-    @Before(value = "@teacher", order = 11)
-    public void setUpTeacher(){
-        System.out.println("Set up teacher test");
-    }
 
 
 
