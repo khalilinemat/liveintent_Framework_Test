@@ -1,6 +1,5 @@
 package com.cybertek.step_definitions;
 
-import com.cybertek.utilities.DatabaseUtility;
 import com.cybertek.utilities.Driver;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
